@@ -18,6 +18,7 @@
         <module>serialization</module>
         <module>commonio</module>
         <module>jdk8</module>
+        <module>jmm</module>
     </modules>
 
 
