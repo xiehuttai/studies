@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Main {
 
     private AtomicInteger atomicI = new AtomicInteger(0);
-    private volatile int i=0;
+    private int i=0;
 
     public static void main(String[] args){
         final Main cas = new Main();

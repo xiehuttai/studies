@@ -2,6 +2,7 @@ package volatile_key;
 
 public class Main {
 
+
     public  static void main(String[] args){
 
         VolatileExample v = new VolatileExample();
@@ -13,6 +14,7 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
         System.out.println(v.a);
         System.out.println(v.flag);
     }
