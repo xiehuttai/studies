@@ -23,6 +23,9 @@
         <module>jdk9</module>
         <module>jdk10</module>
         <module>algorithm</module>
+        <module>jdk5</module>
+        <module>jdk6</module>
+        <module>jdk7</module>
     </modules>
 
 
