@@ -28,7 +28,6 @@ public class Server implements Runnable{
 			ssc.bind(new InetSocketAddress(port));
 			//5 把服务器通道注册到多路复用器上，并且监听阻塞事件
 			ssc.register(this.seletor, SelectionKey.OP_ACCEPT);
-			
 			System.out.println("Server start, port :" + port);
 			
 		} catch (IOException e) {

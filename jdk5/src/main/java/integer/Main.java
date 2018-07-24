@@ -15,6 +15,8 @@ public class Main {
         Integer i03 =Integer.valueOf(59);
         Integer i04 = new Integer(59);
 
+        System.out.println(i01==i02);
+        System.out.println(i01==i03);
         System.out.println(i03==i04);
 
     }
