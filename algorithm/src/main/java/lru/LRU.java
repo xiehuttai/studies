@@ -16,6 +16,7 @@ public class LRU<K,V> {
         this.cacheSize = cacheSize;
         int capacity = (int)Math.ceil(cacheSize / hashLoadFactory) + 1;
         map = new LinkedHashMap<K,V>(capacity, hashLoadFactory, true){
+
             private static final long serialVersionUID = 1;
 
             @Override
@@ -55,4 +56,5 @@ class Main{
     public static void main(String[] args) {
 
     }
+
 }

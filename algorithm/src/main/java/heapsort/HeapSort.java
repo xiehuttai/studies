@@ -1,7 +1,5 @@
 package heapsort;
 
-import java.util.Arrays;
-
 /**
  * 实现堆排序
  * 升序 - 大顶堆：arr[i] >= arr[2*i+1] && arr[i] >= arr[2*i+2]
