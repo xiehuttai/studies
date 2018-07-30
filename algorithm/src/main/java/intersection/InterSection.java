@@ -6,6 +6,7 @@ import java.util.Set;
 public class InterSection {
 
     public static void main(String[] args) {
+
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> set2 = new HashSet<>();
 
@@ -40,8 +41,5 @@ public class InterSection {
         s1.removeAll(s2);
         return s1;
     }
-
-
-
 
 }
