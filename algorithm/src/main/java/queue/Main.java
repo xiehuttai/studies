@@ -34,8 +34,5 @@ public class Main {
             // TODO Auto-generated method stub
             return this.priority-((Patient)oo).priority;
         }
-
-
     }
-
 }

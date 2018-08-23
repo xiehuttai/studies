@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Heap<E extends Comparable>{
     private ArrayList<E> list=new ArrayList<E>();//用数组实现堆
 
-    public Heap(){}
+    public Heap(){
+    }
+
     public Heap(E[] objects){
         for(int i=0;i<objects.length;i++){
             add(objects[i]);
@@ -32,11 +34,9 @@ public class Heap<E extends Comparable>{
 
     public E remove(){//删除并返回根结点,堆的特点是移除了根结点后还是堆
         if(list.size()==0) return null;
-
         E removeObject=list.get(0);
         list.set(0, list.get(list.size()-1));//把最后一个结点放在根结点的位置
         list.remove(list.size()-1);
-
         int currentIndex=0;
         while(currentIndex<list.size()){
             int leftChildIndex=2*currentIndex+1;

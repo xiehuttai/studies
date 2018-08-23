@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ListNode listNode67 = new ListNode(67);
-        ListNode listNode0 = new ListNode(0);
-        ListNode listNode24 = new ListNode(24);
-        ListNode listNode58 = new ListNode(58);
+        Node listNode67 = new Node(67);
+        Node listNode0 = new Node(0);
+        Node listNode24 = new Node(24);
+        Node listNode58 = new Node(58);
 
         listNode67.next=listNode0;
         listNode0.next=listNode24;
@@ -20,10 +20,10 @@ public class Main {
 
     }
 
-    public static ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-        ListNode p=listNode;
+    public static ArrayList<Integer> printListFromTailToHead(Node listNode) {
+        Node p=listNode;
         if (p==null)
-            return  new ArrayList<>();
+            return new ArrayList<>();
         else {
             ArrayList<Integer> list= printListFromTailToHead(p.next);
                     list.add(p.val);

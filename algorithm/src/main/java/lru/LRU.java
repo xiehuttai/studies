@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * 实现LRU算法
+ * 实现 LRU 算法
  */
 public class LRU<K,V> {
 
@@ -16,9 +16,7 @@ public class LRU<K,V> {
         this.cacheSize = cacheSize;
         int capacity = (int)Math.ceil(cacheSize / hashLoadFactory) + 1;
         map = new LinkedHashMap<K,V>(capacity, hashLoadFactory, true){
-
             private static final long serialVersionUID = 1;
-
             @Override
             protected boolean removeEldestEntry(Map.Entry eldest) {
                 return size() > LRU.this.cacheSize;
@@ -44,17 +42,8 @@ public class LRU<K,V> {
 
     public void print() {
         for (Map.Entry<K, V> entry : map.entrySet()) {
-            System.out.print(entry.getValue() + "--");
+            System.out.print(entry.getValue() + " -- ");
         }
-        System.out.println();
     }
 }
 
-
-class Main{
-
-    public static void main(String[] args) {
-
-    }
-
-}

@@ -23,7 +23,7 @@ public class Main {
                     int value = annotation.value();
                     f.setAccessible(true);
                     if (annotation.isId()) {
-                        f.setInt(person,annotation.value());
+                        f.setInt(person,value);
                     }else {
                         f.set(person,annotation.name());
                     }
