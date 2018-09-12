@@ -1,9 +1,6 @@
-package var;
+package rxjava;
 
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
 
 import static java.lang.System.out;
 
