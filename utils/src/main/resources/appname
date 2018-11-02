@@ -1,0 +1,13 @@
+BasicLogisticsMain/logistics/basic-soa-logistics basic-soa-logistics
+BasicMsoaMemberMain/member/basic-msoa-member basic-msoa-member
+BasicMsoaShopMain/shop/basic-msoa-shop basic-msoa-shop
+BasicPromotionMain/promotion basic-soa-promotion
+BasicSoaMemberMain/member/ basic-soa-member
+CommonLogisticsMain/logistics/ logistics-msoa-common
+CommonPromotionMain/promotion promotion-msoa-common
+Disconf disconf
+com.globalegrow.cart.BasicCartMain/cart basic-soa-cart
+com.globalegrow.order.BasicSoaOrderApp/order basic-soa-order
+com.globalegrow.order.OrderSoaMain/order order-soa-common
+mpay.PaySoaMain/pay pay-msoa
+pay.PaySoaApp/pay basic-soa-pay

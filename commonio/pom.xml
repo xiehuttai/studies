@@ -11,5 +11,14 @@
 
     <artifactId>commonio</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.shekhargulati</groupId>
+            <artifactId>strman</artifactId>
+            <version>0.4.0</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
