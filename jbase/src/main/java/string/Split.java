@@ -15,7 +15,6 @@ public class Split {
 
         String split1 = STR.split("\\\\u003d")[1];
         System.out.println(Arrays.asList(split1));
-
     }
 
 }
