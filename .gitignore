@@ -2,3 +2,9 @@
 /*.iml
 /.idea/
 */.idea/*
+designmodel/src/main/java/create/abstractfactory/
+designmodel/src/main/java/create/factorymethod/
+designmodel/target/generated-sources/
+jbase/src/main/java/classpath/resource/
+jbase/target/generated-sources/
+jdk8/target/generated-sources/
