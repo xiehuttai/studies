@@ -2,7 +2,7 @@ package threadlocal;
 
 public class SequenceB implements Sequence {
 
-    private static ThreadLocal<Integer> number= new ThreadLocal<>(){
+    private static ThreadLocal<Integer> number= new ThreadLocal<Integer>(){
         @Override
         protected Integer initialValue() {
             return 0;

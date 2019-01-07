@@ -7,12 +7,9 @@ public class Main {
     // 编译器会在final域的写之后，构造函数return之前，插入一个storestore屏障。
 
     public static void main(String[] args){
-
         FinalExample f = new FinalExample();
-    
         new WThread(f).start();
         new RThread(f).start();
-
     }
 
 }
