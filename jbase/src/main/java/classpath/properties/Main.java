@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         Properties prop = new Properties();
-        InputStream in = Main.class.getClassLoader().getResourceAsStream("application1.properties");
+        InputStream in = Main.class.getClassLoader().getResourceAsStream("application.properties");
             try {
                 if(in!=null){
                     prop.load(in);
@@ -19,7 +19,6 @@ public class Main {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
     }
 
 }
