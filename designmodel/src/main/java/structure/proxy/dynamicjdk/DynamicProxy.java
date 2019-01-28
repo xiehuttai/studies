@@ -8,8 +8,8 @@ public class DynamicProxy implements InvocationHandler {
 
     private Object target;
 
-    public DynamicProxy(Object target) {
-        this.target = target;
+    public DynamicProxy() {
+
     }
 
     @Override
@@ -33,10 +33,12 @@ public class DynamicProxy implements InvocationHandler {
      * 简化使用
      * @return
      */
-    public Object getProxy(){
+    public Object getProxy(Object target){
+        this.target = target;
+        Class<?> aClass = target.getClass();
         return Proxy.
-                newProxyInstance(target.getClass().getClassLoader(),
-                        target.getClass().getInterfaces(),
+                newProxyInstance(aClass.getClassLoader(),
+                        aClass.getInterfaces(),
                         this);
     }
 
