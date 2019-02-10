@@ -2,6 +2,9 @@ package create._05prototype;
 
 import java.util.HashMap;
 
+/**
+ * 原型模式，对象的克隆
+ */
 public class Main {
 
     public static void main(String[] args) {

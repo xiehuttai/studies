@@ -1,5 +1,8 @@
 package create._06builder;
 
+/**
+ * builder模式，构建复杂对象，构建过程可控
+ */
 public class Main {
 
     public static void main(String[] args) {
