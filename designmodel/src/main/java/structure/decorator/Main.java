@@ -1,6 +1,10 @@
 package structure.decorator;
 
 /*jdk实现 ： io */
+
+/**
+ * 装饰器decorator模式，扩展功能，多维度变化
+ */
 public class Main {
 
     public static void main(String[] args) {

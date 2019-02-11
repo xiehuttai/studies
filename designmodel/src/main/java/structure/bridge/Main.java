@@ -8,7 +8,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         DataImpl data = new MysqlData();
 
         OutFile outFile = new TxtFile(data);
@@ -49,6 +48,7 @@ class TxtFile extends OutFile{
         dataImpl.getData();
         System.out.println("txt .");
     }
+
 }
 
 class PdfFile extends OutFile{

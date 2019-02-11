@@ -2,7 +2,7 @@ package structure.decorator;
 
 
 /**
- * 抽象组件
+ * 抽象构件
  */
 public interface ICar {
     void move();
@@ -10,7 +10,7 @@ public interface ICar {
 
 
 /**
- * 真实对象
+ * 具体构件
  */
 class Car implements ICar{
 
@@ -23,7 +23,7 @@ class Car implements ICar{
 
 
 /**
- * 装饰抽象
+ * 抽象装饰
  */
 class SuperCar implements ICar{
 
