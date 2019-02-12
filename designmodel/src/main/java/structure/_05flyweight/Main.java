@@ -1,4 +1,4 @@
-package structure._06flyweight;
+package structure._05flyweight;
 
 import java.util.HashMap;
 import java.util.Map;

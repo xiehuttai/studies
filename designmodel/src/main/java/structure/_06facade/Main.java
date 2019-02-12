@@ -1,4 +1,4 @@
-package structure._05facade;
+package structure._06facade;
 
 /**
  * 外观/门面 facade模式，统一入口，简化交互
