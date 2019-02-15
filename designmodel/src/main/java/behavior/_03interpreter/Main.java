@@ -10,3 +10,14 @@ public class Main {
     }
 
 }
+
+class Context{
+
+}
+
+abstract class AbstractExpression{
+
+    abstract void interpreter();
+
+}
+
