@@ -1,8 +1,5 @@
 package linkcircle;
 
-
-import java.util.HashMap;
-
 /**
  * 判断一个链表是否有环，时间复杂度o(n)
  */

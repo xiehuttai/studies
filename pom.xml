@@ -22,6 +22,8 @@
         <module>jdk5</module>
         <module>jdk8</module>
         <module>designmodel</module>
+        <module>leetcode</module>
+        <module>shell</module>
     </modules>
 
     <build>
