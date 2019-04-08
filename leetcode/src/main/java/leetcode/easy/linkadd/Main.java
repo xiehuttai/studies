@@ -102,7 +102,7 @@ public class Main {
 
             }
 
-            if (l1 == null && l2 != null) {
+            if (l1 == null ) {
                 int sum = l2.val + add;
                 if (sum > 9) {
                     add = 1;
@@ -113,7 +113,7 @@ public class Main {
                 }
             }
 
-            if (l1 != null && l2 == null) {
+            if (l2 == null) {
                 int sum = l1.val + add;
                 if (sum > 9) {
                     add = 1;
@@ -138,7 +138,7 @@ public class Main {
                 l2 = l2.next;
         }
 
-        if (l1==null && l2 ==null && add==1)
+        if (add==1)
             currNode.next=new ListNode(1);
 
         return rootNode;
