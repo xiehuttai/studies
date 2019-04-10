@@ -1,4 +1,4 @@
-package leetcode.easy.linkadd;
+package leetcode.middle.linkadd;
 
 /**
  * 1. 要完善，还要考虑int范围问题；
