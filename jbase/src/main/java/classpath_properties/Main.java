@@ -1,4 +1,4 @@
-package classpath.properties;
+package classpath_properties;
 
 import java.io.IOException;
 import java.io.InputStream;

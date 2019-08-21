@@ -4,8 +4,7 @@ public enum Color {
 
     RED(0,"RED"),
     GREEN(1,"GREEN"),
-    BLUE(2,"BLUE")
-    ;
+    BLUE(2,"BLUE");
 
     private String color;
 

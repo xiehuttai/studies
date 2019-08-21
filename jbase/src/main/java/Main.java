@@ -1,5 +1,3 @@
-package lamda;
-
 import java.util.HashMap;
 import java.util.Map;
 
