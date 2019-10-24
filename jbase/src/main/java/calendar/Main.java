@@ -1,6 +1,10 @@
 package calendar;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.temporal.TemporalAdjusters;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.TimeZone;
 
 /**
@@ -14,6 +18,24 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Date beginDayOfMonth = DateUtil.getBeginDayOfMonth();
+        Date endDayOfMonth = DateUtil.getEndDayOfMonth();
+        System.out.println(beginDayOfMonth);
+        System.out.println(endDayOfMonth);
+
+        int nowMonth = DateUtil.getNowMonth();
+        System.out.println(nowMonth);
+
+        Date beginDayOfSeason = DateUtil.getBeginDayOfSeason();
+        Date endDayOfSeason = DateUtil.getEndDayOfSeason();
+        System.out.println(beginDayOfSeason);
+        System.out.println(endDayOfSeason);
+
+
+    }
+
+
+    public void calendar(){
         Calendar calendar = Calendar.getInstance();
         long timeInMillis = calendar.getTimeInMillis();
         System.out.println("timeInMillis: "+timeInMillis);
@@ -38,9 +60,5 @@ public class Main {
 
         int dayOfYear = calendar.get(Calendar.DAY_OF_YEAR);
         System.out.println("dayOfYear: "+dayOfYear);
-
-
-
     }
-
 }
