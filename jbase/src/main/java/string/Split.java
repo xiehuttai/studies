@@ -15,6 +15,10 @@ public class Split {
 
         String split1 = STR.split("\\\\u003d")[1];
         System.out.println(Arrays.asList(split1));
+
+
+        String str= "abc:d";
+        System.out.printf( str.substring(0, str.indexOf(":")));
     }
 
 }
