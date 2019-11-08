@@ -15,7 +15,20 @@ public class Main {
         new Thread(()->{
             ExceptionTest exceptionTest = new ExceptionTest();
         }).start();
-        TimeUnit.SECONDS.sleep(11);
+
+//        try {
+//            ExceptionTest.get(0);
+//        } catch (NoSuchMethodException e) {
+//            e.printStackTrace();
+//        }
+
+        try {
+            ExceptionTest.get(-1);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+
+//        TimeUnit.SECONDS.sleep(11);
     }
 
     @Override

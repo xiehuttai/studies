@@ -13,11 +13,25 @@ public class ExceptionTest {
         /**
          * 运行时异常，
          */
-        Integer.parseInt("xx");
+        Integer.parseInt("1");
         /**
          * 普通异常一定要catch，不然编译都通过不了。
          */
 //       throw new Exception("");
+    }
+
+    /**
+     * 运行时异常可以不捕获
+     * @param code
+     * @return
+     */
+    public static int get(int code) throws NoSuchMethodException {
+        if (code == 0)
+            throw new IllegalArgumentException();
+        if (code<0){
+            throw new NoSuchMethodException();
+        }
+        return 0;
     }
 
 }
